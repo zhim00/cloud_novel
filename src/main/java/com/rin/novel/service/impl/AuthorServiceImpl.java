@@ -17,8 +17,7 @@ import java.util.Objects;
 /**
  * 作家模块 服务实现类
  *
- * @author xiongxiaoyang
- * @date 2022/5/23
+ * @author zhim00
  */
 @Service
 @RequiredArgsConstructor

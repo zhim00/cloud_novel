@@ -6,8 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * 秒杀活动的系统通知发送器
  *
- * @author xiongxiaoyang
- * @date 2023/3/24
+ * @author zhim00
  */
 @Component(value = MessageSenderTypeConsts.SECKILL_SYS_NOTICE_SENDER)
 public class SeckillSystemNoticeSender extends AbstractSysNoticeSender {

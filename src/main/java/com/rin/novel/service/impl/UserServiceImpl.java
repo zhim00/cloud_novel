@@ -32,8 +32,7 @@ import org.springframework.util.DigestUtils;
 /**
  * 会员模块 服务实现类
  *
- * @author xiongxiaoyang
- * @date 2022/5/17
+ * @author zhim00
  */
 @Service
 @RequiredArgsConstructor

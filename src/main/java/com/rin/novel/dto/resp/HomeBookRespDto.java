@@ -6,8 +6,7 @@ import lombok.Data;
 /**
  * 首页小说推荐 响应DTO
  *
- * @author xiongxiaoyang
- * @date 2022/5/13
+ * @author zhim00
  */
 @Data
 public class HomeBookRespDto {

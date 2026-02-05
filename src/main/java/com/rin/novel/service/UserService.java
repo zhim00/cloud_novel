@@ -11,8 +11,7 @@ import com.rin.novel.dto.resp.UserRegisterRespDto;
 /**
  * 会员模块 服务类
  *
- * @author xiongxiaoyang
- * @date 2022/5/17
+ * @author zhim00
  */
 public interface UserService {
 

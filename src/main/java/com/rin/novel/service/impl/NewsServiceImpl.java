@@ -17,8 +17,7 @@ import org.springframework.stereotype.Service;
 /**
  * 新闻模块 服务实现类
  *
- * @author xiongxiaoyang
- * @date 2022/5/14
+ * @author zhim00
  */
 @Service
 @RequiredArgsConstructor

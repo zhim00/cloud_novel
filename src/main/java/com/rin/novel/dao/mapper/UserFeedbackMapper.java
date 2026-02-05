@@ -8,8 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 用户反馈 Mapper 接口
  * </p>
  *
- * @author xiongxiaoyang
- * @date 2022/05/11
+ * @author zhim00
  */
 public interface UserFeedbackMapper extends BaseMapper<UserFeedback> {
 

@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
  * 用户与角色对应关系
  * </p>
  *
- * @author xiongxiaoyang
- * @date 2022/05/11
+ * @author zhim00
  */
 @TableName("sys_user_role")
 public class SysUserRole implements Serializable {

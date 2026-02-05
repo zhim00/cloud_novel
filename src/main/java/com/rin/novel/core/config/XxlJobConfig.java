@@ -10,8 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * XXL-JOB 配置类
  *
- * @author xiongxiaoyang
- * @date 2022/5/31
+ * @author zhim00
  */
 @Configuration
 @ConditionalOnProperty(prefix = "xxl.job", name = "enabled", havingValue = "true")

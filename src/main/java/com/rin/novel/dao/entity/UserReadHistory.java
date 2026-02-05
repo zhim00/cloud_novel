@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
  * 用户阅读历史
  * </p>
  *
- * @author xiongxiaoyang
- * @date 2022/05/11
+ * @author zhim00
  */
 @TableName("user_read_history")
 public class UserReadHistory implements Serializable {

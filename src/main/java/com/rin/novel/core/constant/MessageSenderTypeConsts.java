@@ -3,8 +3,7 @@ package com.rin.novel.core.constant;
 /**
  * 消息发送器的类型
  *
- * @author xiongxiaoyang
- * @date 2023/3/24
+ * @author zhim00
  */
 public class MessageSenderTypeConsts {
 

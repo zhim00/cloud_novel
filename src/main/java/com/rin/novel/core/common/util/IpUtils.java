@@ -4,8 +4,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import lombok.experimental.UtilityClass;
 
 /**
- * @author xiongxiaoyang
- * @date 2022/5/17
+ * @author zhim00
  */
 @UtilityClass
 public class IpUtils {

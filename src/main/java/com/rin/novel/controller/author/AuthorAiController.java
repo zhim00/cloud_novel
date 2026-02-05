@@ -16,8 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 作家后台-AI模块API控制器
  *
- * @author xiongxiaoyang
- * @date 2025/2/19
+ * @author zhim00
  */
 @Tag(name = "AiController", description = "作家后台-AI模块")
 @SecurityRequirement(name = SystemConfigConsts.HTTP_AUTH_HEADER_NAME)

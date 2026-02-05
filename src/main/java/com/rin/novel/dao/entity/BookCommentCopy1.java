@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
  * 小说评论
  * </p>
  *
- * @author xiongxiaoyang
- * @date 2022/05/11
+ * @author zhim00
  */
 @TableName("book_comment_copy1")
 public class BookCommentCopy1 implements Serializable {

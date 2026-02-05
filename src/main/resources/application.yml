@@ -239,7 +239,7 @@ novel:
     # 文件上传配置
     upload:
       # 上传路径
-      path: /Users/xiongxiaoyang/upload
+      path: /Users/zhim00/upload
 
 
 --- #------------------- dev 特定配置---------------------------

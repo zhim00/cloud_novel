@@ -3,8 +3,7 @@ package com.rin.novel.core.constant;
 /**
  * elasticsearch 相关常量
  *
- * @author xiongxiaoyang
- * @date 2022/5/23
+ * @author zhim00
  */
 public class EsConsts {
 

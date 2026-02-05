@@ -6,8 +6,7 @@ import lombok.Data;
 
 /**
  * 用户注册 响应DTO
- * @author xiongxiaoyang
- * @date 2022/5/17
+ * @author zhim00
  */
 @Data
 @Builder

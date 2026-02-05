@@ -3,8 +3,7 @@ package com.rin.novel.core.constant;
 /**
  * AMQP 相关常量
  *
- * @author xiongxiaoyang
- * @date 2022/5/25
+ * @author zhim00
  */
 public class AmqpConsts {
 

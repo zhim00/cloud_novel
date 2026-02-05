@@ -21,8 +21,7 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 /**
  * 缓存配置类
  *
- * @author xiongxiaoyang
- * @date 2022/5/12
+ * @author zhim00
  */
 @Configuration
 public class CacheConfig {

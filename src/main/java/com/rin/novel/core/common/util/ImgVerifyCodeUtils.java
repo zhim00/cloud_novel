@@ -14,8 +14,7 @@ import lombok.experimental.UtilityClass;
 /**
  * 图片验证码工具类
  *
- * @author xiongxiaoyang
- * @date 2022/5/17
+ * @author zhim00
  */
 @UtilityClass
 public class ImgVerifyCodeUtils {

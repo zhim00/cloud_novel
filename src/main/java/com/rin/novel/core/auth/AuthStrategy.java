@@ -12,8 +12,7 @@ import org.springframework.util.StringUtils;
 /**
  * 策略模式实现用户认证授权功能
  *
- * @author xiongxiaoyang
- * @date 2022/5/18
+ * @author zhim00
  */
 public interface AuthStrategy {
 

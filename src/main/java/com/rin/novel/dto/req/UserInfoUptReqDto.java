@@ -9,8 +9,7 @@ import org.hibernate.validator.constraints.Length;
 
 /**
  * 用户信息更新 请求DTO
- * @author xiongxiaoyang
- * @date 2022/5/17
+ * @author zhim00
  */
 @Data
 public class UserInfoUptReqDto {

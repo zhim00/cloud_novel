@@ -11,8 +11,7 @@ import java.util.Date;
 /**
  * 小说搜索 请求DTO
  *
- * @author xiongxiaoyang
- * @date 2022/5/16
+ * @author zhim00
  */
 @Data
 public class BookSearchReqDto extends PageReqDto {

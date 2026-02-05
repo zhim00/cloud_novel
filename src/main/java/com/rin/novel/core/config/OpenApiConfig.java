@@ -13,8 +13,7 @@ import org.springframework.context.annotation.Profile;
 /**
  * OpenApi 配置类
  *
- * @author xiongxiaoyang
- * @date 2022/9/1
+ * @author zhim00
  */
 @Configuration
 @Profile("dev")

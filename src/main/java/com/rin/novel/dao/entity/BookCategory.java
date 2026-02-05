@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
  * 小说类别
  * </p>
  *
- * @author xiongxiaoyang
- * @date 2022/05/12
+ * @author zhim00
  */
 @TableName("book_category")
 public class BookCategory implements Serializable {

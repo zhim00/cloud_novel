@@ -8,8 +8,7 @@ import com.rin.novel.dto.resp.BookInfoRespDto;
 /**
  * 搜索 服务类
  *
- * @author xiongxiaoyang
- * @date 2022/5/23
+ * @author zhim00
  */
 public interface SearchService {
 

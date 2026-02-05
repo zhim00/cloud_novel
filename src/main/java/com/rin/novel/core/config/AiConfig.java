@@ -10,8 +10,7 @@ import org.springframework.web.client.RestClient;
 /**
  * Ai 相关配置
  *
- * @author xiongxiaoyang
- * @date 2025/2/19
+ * @author zhim00
  */
 @Configuration
 @Slf4j

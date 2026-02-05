@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
  * 微信支付
  * </p>
  *
- * @author xiongxiaoyang
- * @date 2022/05/11
+ * @author zhim00
  */
 @TableName("pay_wechat")
 public class PayWechat implements Serializable {

@@ -7,8 +7,7 @@ import java.lang.annotation.*;
  * <p>
  * 在接收到请求参数时，可通过 AOP 对标注了该注解的参数进行统一处理， 校验并防止 SQL 注入等安全问题。
  *
- * @author xiongxiaoyang
- * @date 2025/7/17
+ * @author zhim00
  */
 @Target(ElementType.PARAMETER) // 表示该注解只能用于方法参数上
 @Retention(RetentionPolicy.RUNTIME) // 注解在运行时依然可用，便于 AOP 或其他框架读取

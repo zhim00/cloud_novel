@@ -8,8 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 稿费收入明细统计 Mapper 接口
  * </p>
  *
- * @author xiongxiaoyang
- * @date 2022/05/11
+ * @author zhim00
  */
 public interface AuthorIncomeDetailMapper extends BaseMapper<AuthorIncomeDetail> {
 

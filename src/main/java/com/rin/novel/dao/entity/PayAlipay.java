@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
  * 支付宝支付
  * </p>
  *
- * @author xiongxiaoyang
- * @date 2022/05/11
+ * @author zhim00
  */
 @TableName("pay_alipay")
 public class PayAlipay implements Serializable {

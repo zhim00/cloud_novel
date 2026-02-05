@@ -9,8 +9,7 @@ import java.io.Serializable;
 /**
  * 首页友情链接 响应DTO
  *
- * @author xiongxiaoyang
- * @date 2022/5/14
+ * @author zhim00
  */
 @Data
 public class HomeFriendLinkRespDto implements Serializable {
