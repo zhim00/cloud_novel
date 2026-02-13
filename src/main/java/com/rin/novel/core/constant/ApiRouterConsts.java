@@ -99,6 +99,17 @@ public class ApiRouterConsts {
         API_FRONT_URL_PREFIX + SEARCH_URL_PREFIX;
 
     /**
+     * 打卡活动模块请求路径前缀
+     */
+    public static final String CHECKIN_URL_PREFIX = "/checkin";
+
+    /**
+     * 前台门户打卡活动相关API请求路径前缀
+     */
+    public static final String API_FRONT_CHECKIN_URL_PREFIX =
+        API_FRONT_URL_PREFIX + CHECKIN_URL_PREFIX;
+
+    /**
      * 作家后台AI相关API请求路径前缀
      */
     public static final String API_AUTHOR_AI_URL_PREFIX = API_AUTHOR_URL_PREFIX + AI_URL_PREFIX;

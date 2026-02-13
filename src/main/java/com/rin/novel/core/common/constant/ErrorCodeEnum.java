@@ -123,6 +123,43 @@ public enum ErrorCodeEnum {
      */
     USER_UPLOAD_FILE_TYPE_NOT_MATCH("A0701", "用户上传文件类型不匹配"),
 
+    // ==================== 打卡活动相关错误码 ====================
+
+    /**
+     * 二级宏观错误码，用户打卡活动错误
+     */
+    USER_CHECKIN_ERROR("A0800", "用户打卡活动错误"),
+
+    /**
+     * 今日已打卡
+     */
+    CHECKIN_ALREADY_TODAY("A0801", "今日已打卡"),
+
+    /**
+     * 当月已领取优惠券
+     */
+    CHECKIN_COUPON_ALREADY_GRABBED("A0802", "本月已领取优惠券，快去使用吧"),
+
+    /**
+     * 打卡天数不足
+     */
+    CHECKIN_DAYS_NOT_ENOUGH("A0803", "打卡天数不足21天，无法参与抢券"),
+
+    /**
+     * 优惠券已抢完
+     */
+    CHECKIN_COUPON_SOLD_OUT("A0804", "今日优惠券已抢完，明天再来吧"),
+
+    /**
+     * 抢券失败请重试
+     */
+    CHECKIN_GRAB_FAILED("A0805", "抢券失败，请重试"),
+
+    /**
+     * 活动入口已关闭
+     */
+    CHECKIN_ENTRY_CLOSED("A0806", "已成功领券，快去使用吧"),
+
     /**
      * 一级宏观错误码，系统执行出错
      */

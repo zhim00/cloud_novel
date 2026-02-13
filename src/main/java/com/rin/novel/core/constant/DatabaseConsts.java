@@ -51,6 +51,61 @@ public class DatabaseConsts {
     }
 
     /**
+     * 用户每日阅读表
+     */
+    public static class UserDailyReadingTable {
+
+        private UserDailyReadingTable() {
+            throw new IllegalStateException(SystemConfigConsts.CONST_INSTANCE_EXCEPTION_MSG);
+        }
+
+        public static final String COLUMN_USER_ID = "user_id";
+
+        public static final String COLUMN_READING_DATE = "reading_date";
+
+        public static final String COLUMN_IS_CHECKED_IN = "is_checked_in";
+
+    }
+
+    /**
+     * 用户打卡记录表
+     */
+    public static class UserCheckinRecordTable {
+
+        private UserCheckinRecordTable() {
+            throw new IllegalStateException(SystemConfigConsts.CONST_INSTANCE_EXCEPTION_MSG);
+        }
+
+        public static final String COLUMN_USER_ID = "user_id";
+
+        public static final String COLUMN_CHECKIN_DATE = "checkin_date";
+
+        public static final String COLUMN_CHECKIN_MONTH = "checkin_month";
+
+    }
+
+    /**
+     * 用户优惠券表
+     */
+    public static class UserCouponTable {
+
+        private UserCouponTable() {
+            throw new IllegalStateException(SystemConfigConsts.CONST_INSTANCE_EXCEPTION_MSG);
+        }
+
+        public static final String COLUMN_USER_ID = "user_id";
+
+        public static final String COLUMN_ACTIVITY_MONTH = "activity_month";
+
+        public static final String COLUMN_COUPON_TYPE = "coupon_type";
+
+        public static final String COLUMN_STATUS = "status";
+
+        public static final String COLUMN_EXPIRE_TIME = "expire_time";
+
+    }
+
+    /**
      * 作家信息表
      */
     public static class AuthorInfoTable {

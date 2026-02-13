@@ -1,0 +1,51 @@
+package com.rin.novel.dao.entity;
+
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+
+import java.io.Serial;
+import java.io.Serializable;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+/**
+ * 用户打卡记录
+ *
+ * @author zhim00
+ */
+@Data
+@TableName("user_checkin_record")
+public class UserCheckinRecord implements Serializable {
+
+    @Serial
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * 主键
+     */
+    @TableId(value = "id", type = IdType.AUTO)
+    private Long id;
+
+    /**
+     * 用户ID
+     */
+    private Long userId;
+
+    /**
+     * 打卡日期
+     */
+    private LocalDate checkinDate;
+
+    /**
+     * 打卡月份 yyyy-MM
+     */
+    private String checkinMonth;
+
+    /**
+     * 创建时间
+     */
+    private LocalDateTime createTime;
+}
+

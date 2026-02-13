@@ -94,6 +94,36 @@ public class CacheConsts {
      */
     public static final String AUTHOR_INFO_CACHE_NAME = "authorInfoCache";
 
+    // ==================== 打卡活动相关缓存 Key ====================
+
+    /**
+     * 用户每日阅读时长缓存 KEY 前缀
+     * 完整Key: Cache::Novel::checkinDailyReading::{userId}::{date}
+     */
+    public static final String CHECKIN_DAILY_READING_CACHE_KEY =
+        REDIS_CACHE_PREFIX + "checkinDailyReading::";
+
+    /**
+     * 打卡活动优惠券每日库存 KEY 前缀
+     * 完整Key: Cache::Novel::checkinCouponStock::{date}
+     */
+    public static final String CHECKIN_COUPON_STOCK_CACHE_KEY =
+        REDIS_CACHE_PREFIX + "checkinCouponStock::";
+
+    /**
+     * 用户当月已领券标记 KEY 前缀
+     * 完整Key: Cache::Novel::checkinUserGrabbed::{month}::{userId}
+     */
+    public static final String CHECKIN_USER_GRABBED_CACHE_KEY =
+        REDIS_CACHE_PREFIX + "checkinUserGrabbed::";
+
+    /**
+     * 用户当月打卡天数缓存 KEY 前缀
+     * 完整Key: Cache::Novel::checkinMonthCount::{month}::{userId}
+     */
+    public static final String CHECKIN_MONTH_COUNT_CACHE_KEY =
+        REDIS_CACHE_PREFIX + "checkinMonthCount::";
+
     /**
      * 缓存配置常量
      */
