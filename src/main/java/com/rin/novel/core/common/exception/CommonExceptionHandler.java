@@ -5,6 +5,7 @@ import com.rin.novel.core.common.resp.RestResp;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindException;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -33,7 +34,16 @@ public class CommonExceptionHandler {
      */
     @ExceptionHandler(BindException.class)
     public RestResp<Void> handlerBindException(BindException e) {
-        log.error(e.getMessage(), e);
+        log.warn(e.getMessage(), e);
+        return RestResp.fail(ErrorCodeEnum.USER_REQUEST_PARAM_ERROR);
+    }
+
+    /**
+     * 处理JSON校验异常
+     */
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public RestResp<Void> handlerMethodArgumentNotValidException(MethodArgumentNotValidException e) {
+        log.warn(e.getMessage(), e);
         return RestResp.fail(ErrorCodeEnum.USER_REQUEST_PARAM_ERROR);
     }
 
